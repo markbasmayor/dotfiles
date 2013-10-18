@@ -1,0 +1,9 @@
+[core]
+	editor = vim
+[color]
+	ui = true
+[user]
+	name = markbasmayor
+	email = mark.basmayor@gmail.com
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
