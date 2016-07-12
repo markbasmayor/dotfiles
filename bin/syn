@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#...............................................................................
+# Wraps rsync and adds colors to the output
+#...............................................................................
+
+# --------- bootstrap
+DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+INCLUDES_DIR="$DIR/includes"
+
+# --------- includes
+source $INCLUDES_DIR/colors.sh
+
+# --------- main
+LOCAL_PATH=""
+REMOTE_PATH=""
+
+printf "Syncing changes to ${ORANGE}${REMOTE_PATH}${NC}\n"
+
+# rsync allows you to have multiple --excludes
+rsync --archive --compress --verbose \
+   --exclude='.git/' \
+   $LOCAL_PATH $REMOTE_PATH
+
+echo -e "${GREEN}DONE !!!${NC}"          
