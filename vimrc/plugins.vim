@@ -26,6 +26,7 @@ Plugin 'bling/vim-bufferline'
 Plugin 'mileszs/ack.vim'
 Plugin 'austintaylor/vim-indentobject'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'tpope/vim-fugitive'
 
 " snippets bundle
 Plugin 'tomtom/tlib_vim'

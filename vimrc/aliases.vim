@@ -38,6 +38,13 @@ nnoremap <silent><F6> :set paste!<BAR>set paste?<CR>
 map <leader>t :tabnew<CR>
 
 nnoremap <leader>a :Ack!<space>
+
 inoremap jj <ESC>
 
+" Easier moving in tabs and windows
+map <C-J> <C-W>j<C-W>_
+map <C-K> <C-W>k<C-W>_
+map <C-L> <C-W>l<C-W>_
+map <C-H> <C-W>h<C-W>_
+map <C-K> <C-W>k<C-W>_
 
