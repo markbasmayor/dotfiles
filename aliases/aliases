@@ -7,15 +7,8 @@ alias ll='ls -lah'
 alias 3.='cd ../../..'
 alias 4.='cd ../../../..'
 
-# git aliases
-alias gl="git lg"
-alias gs="git status"
-alias ga="git add ."
-alias gc="git commit . "
-
 alias g='git'
 alias v='vim'
 
 
-alias ord="cd /var/www/orders"
-alias mi="php index.php admin migrate"
+alias my=$(echo -e 'mysql --prompt="\x1B[31m\\u\x1B[34m@\x1B[32m\\v\x1B[0m:\x1B[36m\\d>\x1B[0m "')
