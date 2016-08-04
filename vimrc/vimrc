@@ -41,6 +41,9 @@ set list
 " enter keybindings without timing out
 set timeoutlen=1000 ttimeoutlen=0
 
+" sets the diretory to the location where you navigated to
+set autochdir
+
 "------------------------------------------------------------------------------
 " Resources
 "------------------------------------------------------------------------------
@@ -201,7 +204,7 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 
 " Close vim if the only window left open is the NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-"let NERDTreeQuitOnOpen = 1
+let NERDTreeQuitOnOpen = 1
 
 " Show current file in NERDTree
 nmap <leader>f :NERDTreeFind<CR>
