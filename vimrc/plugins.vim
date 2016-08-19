@@ -19,7 +19,6 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'tpope/vim-ragtag'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'bling/vim-bufferline'
@@ -28,6 +27,8 @@ Plugin 'austintaylor/vim-indentobject'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tpope/vim-fugitive'
 Plugin 'elzr/vim-json'
+Plugin 'junegunn/fzf', { 'dir': '/usr/local/opt/fzf', 'do': './install --all'  }
+Plugin 'junegunn/fzf.vim'
 
 " snippets bundle
 Plugin 'tomtom/tlib_vim'

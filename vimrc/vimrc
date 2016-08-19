@@ -41,9 +41,6 @@ set list
 " enter keybindings without timing out
 set timeoutlen=1000 ttimeoutlen=0
 
-" sets the diretory to the location where you navigated to
-set autochdir
-
 "------------------------------------------------------------------------------
 " Resources
 "------------------------------------------------------------------------------
@@ -108,7 +105,7 @@ set tm=500
 
 set splitbelow
 set splitright
-set mouse=a
+" set mouse=a
 "------------------------------------------------------------------------------
 " Colors and Fonts
 "------------------------------------------------------------------------------
@@ -222,6 +219,12 @@ let g:NERDCommentEmptyLines = 1
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
 
+" Disables display of the 'Bookmarks' label and 'Press ? for help' text.
+let g:NERDTreeMinimalUI = 1
+
+" Closes the tree window after opening a file
+let g:NERDTreeQuitOnOpen = 1
+
 "------------------------------------------------------------------------------
 " Ragtag
 "------------------------------------------------------------------------------
@@ -273,6 +276,7 @@ nmap <leader>+ <Plug>AirlineSelectNextTab
 
 let g:airline_powerline_fonts=1
 
+
 "------------------------------------------------------------------------------
 " Ack Grep / Silver Searcher
 "------------------------------------------------------------------------------
@@ -286,26 +290,9 @@ endif
 nnoremap <leader>a :Ack!<space>
 
 "------------------------------------------------------------------------------
-" CtrlP
+" FZF
 "------------------------------------------------------------------------------
-
-let g:ctrlp_clear_cache_on_exit = 0
-let g:ctrlp_map                     = '<c-p>'
-let g:ctrlp_regexp                  = 1
-let g:ctrlp_match_window_bottom     = 1
-let g:ctrlp_open_new_file           = 't'
-let g:ctrlp_open_multiple_files     = 'tjr'
-let g:ctrlp_lazy_update             = 1
-let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
-
-if executable('ag')
-  let g:ctrlp_user_command = 'ag %s --ignore-case --nocolor --nogroup -g ""'
-endif
-
-" keep in case silver searcher is slow or not installed
-" if system('git rev-parse --is-inside-work-tree') =~ 'true'
-  " let g:ctrlp_user_command = 'cd %s && git ls-files'
-" endif
+nnoremap <c-p> :FZF<CR>
 
 "------------------------------------------------------------------------------
 " Multi cursor

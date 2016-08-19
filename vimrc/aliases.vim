@@ -30,16 +30,16 @@ vnoremap = =gv
 " Remap VIM 0 to first non-blank character
 map 0 ^
 
-nmap <leader>c :noh<CR>
-
 nnoremap <silent> <F4> :set number!<CR>
-nnoremap <silent><F6> :set paste!<BAR>set paste?<CR>
 
 map <leader>t :tabnew<CR>
 
 nnoremap <leader>a :Ack!<space>
 
 inoremap jj <ESC>
+
+" change the working directory to that of the currently opened file
+nnoremap <leader>cd :lcd %:p:h<CR>:pwd<CR>
 
 " Easier moving in tabs and windows
 map <C-J> <C-W>j<C-W>_
