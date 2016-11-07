@@ -1,5 +1,10 @@
 alias ..='cd ..'
 alias ....='cd ../..'
+
+alias 2..='cd ../..'
+alias 3..='cd ../../..'
+alias 4..='cd ../../../..'
+
 alias www='cd /var/www/'
 
 alias ll='ls -lah'
@@ -10,5 +15,3 @@ alias 4.='cd ../../../..'
 alias g='git'
 alias v='vim'
 
-
-alias my=$(echo -e 'mysql --prompt="\x1B[31m\\u\x1B[34m@\x1B[32m\\v\x1B[0m:\x1B[36m\\d>\x1B[0m "')
