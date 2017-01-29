@@ -192,6 +192,11 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 
+
+" --- Python
+autocmd FileType python map <F5> :w!<CR>:!clear<CR>:!python  %<CR>
+
+
 "------------------------------------------------------------------------------
 " NERDTree
 "------------------------------------------------------------------------------

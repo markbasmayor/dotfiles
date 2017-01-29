@@ -48,4 +48,3 @@ map <C-L> <C-W>l<C-W>_
 map <C-H> <C-W>h<C-W>_
 map <C-K> <C-W>k<C-W>_
 
-nmap <F5> :!python %<cr>
