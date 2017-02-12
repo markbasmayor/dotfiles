@@ -14,4 +14,4 @@ alias 4.='cd ../../../..'
 
 alias g='git'
 alias v='vim'
-
+alias vg='vagrant'
