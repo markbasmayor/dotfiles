@@ -34,8 +34,8 @@ set scrolloff=3
 set sidescrolloff=5
 
 " Show trailing spaces so it's easier to delete them
-set listchars=tab:▸\ ,trail:·
-set list
+" set listchars=tab:▸\ ,trail:·
+" set list
 
 " this prevents airline from 'lagging' but still making it possible for us to
 " enter keybindings without timing out
@@ -105,7 +105,7 @@ set tm=500
 
 set splitbelow
 set splitright
-" set mouse=a
+"set mouse=a
 "------------------------------------------------------------------------------
 " Colors and Fonts
 "------------------------------------------------------------------------------
