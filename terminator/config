@@ -1,6 +1,7 @@
 [global_config]
   borderless = True
   enabled_plugins = APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 1.0
   tab_position = hidden
   title_inactive_fg_color = "#e5c200"
 [keybindings]
@@ -17,13 +18,13 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#121212"
+    background_color = "#222222"
     background_darkness = 1.0
     background_type = transparent
     cursor_color = "#c20257"
     font = Fira Code weight=453 9
     foreground_color = "#ffffff"
-    palette = "#181915:#e00265:#498702:#c5bb63:#91daea:#75507b:#4194b0:#d3d7cf:#45473c:#fa60a5:#6dca04:#e6db74:#71d5ff:#af5fff:#5cd1f8:#ffffff"
+    palette = "#000000:#ff8080:#abef9f:#ffb23e:#ae81ff:#75507b:#4affff:#d3d7cf:#6d5d5d:#ff6190:#abef9f:#ffc56e:#71d5ff:#af5fff:#4affff:#ffffff"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
