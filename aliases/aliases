@@ -1,17 +1,9 @@
-alias ..='cd ..'
-alias ....='cd ../..'
-
 alias 2..='cd ../..'
 alias 3..='cd ../../..'
 alias 4..='cd ../../../..'
 
-alias www='cd /var/www/'
-
-alias ll='ls -lah'
-
-alias 3.='cd ../../..'
-alias 4.='cd ../../../..'
-
 alias g='git'
 alias v='vim'
 alias vg='vagrant'
+
+alias cat='bat'
