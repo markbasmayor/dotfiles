@@ -7,3 +7,4 @@ alias v='vim'
 alias vg='vagrant'
 
 alias cat='bat'
+alias clip='xclip -se c'
