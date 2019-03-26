@@ -1,0 +1,3 @@
+[submodule "zshrc/themes/powerlevel9k"]
+	path = zshrc/themes/powerlevel9k
+	url = https://github.com/bhilburn/powerlevel9k.git
