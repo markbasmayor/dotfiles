@@ -29,6 +29,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'elzr/vim-json'
 Plugin 'junegunn/fzf', { 'dir': '/usr/local/opt/fzf', 'do': './install --all'  }
 Plugin 'junegunn/fzf.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " snippets bundle
 Plugin 'tomtom/tlib_vim'

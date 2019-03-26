@@ -111,9 +111,11 @@ set splitright
 "------------------------------------------------------------------------------
 
 set t_Co=256
-set background=dark
-colorscheme jellybeans
+"set background=dark
+"colorscheme jellybeans
 
+set background=light
+colorscheme solarized
 "------------------------------------------------------------------------------
 " Text, tab and indent related
 "------------------------------------------------------------------------------
