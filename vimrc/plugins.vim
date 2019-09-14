@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Add plugins here...
 " Launch vim and run :BundleInstall , everything will be ready for you
+" Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 "Plugin 'itchyny/lightline.vim'
@@ -29,7 +30,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'elzr/vim-json'
 Plugin 'junegunn/fzf', { 'dir': '/usr/local/opt/fzf', 'do': './install --all'  }
 Plugin 'junegunn/fzf.vim'
-Plugin 'altercation/vim-colors-solarized'
 
 " snippets bundle
 Plugin 'tomtom/tlib_vim'
