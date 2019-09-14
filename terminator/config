@@ -1,31 +1,27 @@
 [global_config]
-  borderless = True
-  enabled_plugins = APTURLHandler, LaunchpadBugURLHandler
-  inactive_color_offset = 1.0
-  tab_position = hidden
-  title_inactive_fg_color = "#e5c200"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
 [keybindings]
-  split_horiz = <Primary><Shift><Alt>o
-  split_vert = <Primary><Shift><Alt>v
-[layouts]
-  [[default]]
-    [[[child1]]]
-      parent = window0
-      type = Terminal
-    [[[window0]]]
-      parent = ""
-      type = Window
-[plugins]
+  split_horiz = <Primary><Alt>minus
+  split_vert = <Primary><Alt>backslash
 [profiles]
   [[default]]
-    background_color = "#222222"
-    background_darkness = 1.0
-    background_type = transparent
-    cursor_color = "#c20257"
-    font = Fira Code weight=453 9
-    foreground_color = "#ffffff"
-    palette = "#000000:#ff8080:#abef9f:#ffb23e:#ae81ff:#75507b:#4affff:#d3d7cf:#6d5d5d:#ff6190:#abef9f:#ffc56e:#71d5ff:#af5fff:#4affff:#ffffff"
-    scrollback_infinite = True
+    background_color = "#212121"
+    cursor_color = "#d0d0d0"
+    font = MesloLGSDZ Nerd Font 10
+    foreground_color = "#d0d0d0"
     scrollbar_position = hidden
-    show_titlebar = False
+    scroll_on_keystroke = False
+    scrollback_lines = 1000
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
     use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      profile = default
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
