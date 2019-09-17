@@ -6,7 +6,7 @@ alias g='git'
 alias v='vim'
 alias vg='vagrant'
 
-alias cat='bat'
+alias cat='bat --theme "Monokai Extended"'
 alias clip='xclip -se c'
 
 alias l='exa'
