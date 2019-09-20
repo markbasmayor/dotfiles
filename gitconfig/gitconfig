@@ -14,7 +14,7 @@
     lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
     lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
     lglight = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C('4')%h%C(reset) - %C('12')(%ar)%C(reset) %C(black)%s%C(reset) %C('5')- %ae%C(reset)%C('9')%d%C(reset)'
-    lg = !git lglight
+    lg = !git lg1
     co = checkout
     br = branch
     ci = commit
